@@ -1,4 +1,4 @@
-from master_config import MASTER_PARAMS
+from healthdashapi.app.master_config import MASTER_PARAMS
 import requests
 from openai import OpenAI
 
@@ -14,7 +14,7 @@ def aggregateDexData(extracted_data):
     
     
 def call_chatgpt_api(prompt,data):
-    client = OpenAI( api_key ='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')
+    client = OpenAI( api_key =MASTER_PARAMS['openai_api_key'])
     response = client.chat.completions.create(
     model="gpt-3.5-turbo",
     messages=[
