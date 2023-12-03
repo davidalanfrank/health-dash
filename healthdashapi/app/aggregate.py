@@ -1,4 +1,4 @@
-from healthdashapi.app.master_config import MASTER_PARAMS
+from app.master_config import MASTER_PARAMS
 import requests
 from openai import OpenAI
 
@@ -22,5 +22,6 @@ def call_chatgpt_api(prompt,data):
         {"role": "user", "content": data},
     ]
     )
+    current_directory = os.getcwd()
     
     return response

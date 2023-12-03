@@ -20,5 +20,5 @@ from app.views import aggregate_data
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('aggregate-data/', aggregate_data), 
+    path("aggregate-data/", aggregate_data), 
 ]
