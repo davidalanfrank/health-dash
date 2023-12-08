@@ -1,5 +1,6 @@
 from app.master_config import MASTER_PARAMS
 import requests
+import os
 from openai import OpenAI
 
 def aggregateData(extracted_data,result_type):
@@ -23,5 +24,6 @@ def call_chatgpt_api(prompt,data):
     ]
     )
     current_directory = os.getcwd()
+    print("response",response)
     
-    return response
+    return response.choices[0].message.content
