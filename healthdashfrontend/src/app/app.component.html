@@ -1,0 +1,29 @@
+<div class="app-container">
+  <!-- Top Nav -->
+  <header class="top-nav">
+    <div class="logo">Health Dashboard</div>
+    <div class="profile">
+      <img class="profile-img" src="assets/profile.jpg" alt="User Image" />
+      <span class="profile-name">John Doe</span>
+    </div>
+  </header>
+
+  <div class="main-layout">
+    <!-- Main Content -->
+    <main class="content">
+      <router-outlet></router-outlet>
+    </main>
+
+    <!-- Right Sidebar -->
+    <aside [class.collapsed]="isSidebarCollapsed" class="sidebar">
+      <button class="toggle-btn" (click)="toggleSidebar()">
+        {{ isSidebarCollapsed ? '«' : '»' }}
+      </button>
+      <nav class="menu">
+        <a routerLink="/dash" routerLinkActive="active">Dashboard</a>
+        <a routerLink="/upload" routerLinkActive="active">Upload</a>
+        <!-- Add more links as needed -->
+      </nav>
+    </aside>
+  </div>
+</div>
