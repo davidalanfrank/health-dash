@@ -1,0 +1,144 @@
+{
+  "scan_information": {
+    "scan_date": "18 November 2023",
+    "scan_type": "a Whole Body",
+    "operator": "AMC",
+    "model": "Image not for diagnostic use 327 x 150"
+  },
+  "name": "WEBSTER, DAVID AF",
+  "patient_id": "DAFW3107",
+  "dob": "31 July 1993",
+  "area_cm2": [
+    253.31,
+    242.77,
+    169.41,
+    153.61,
+    145.50,
+    55.93,
+    262.23,
+    417.46,
+    420.29,
+    2120.52,
+    247.64,
+    2368.16
+  ],
+  "bmc_g": [
+    222.28,
+    232.32,
+    128.20,
+    114.62,
+    137.27,
+    71.29,
+    373.19,
+    586.00,
+    590.53,
+    2455.68,
+    571.69,
+    3027.38
+  ],
+  "bmd_g_cm2": [
+    0.878,
+    0.957,
+    0.757,
+    0.746,
+    0.943,
+    1.275,
+    1.423,
+    1.404,
+    1.405,
+    1.158,
+    2.309,
+    1.278
+  ],
+  "t_score": {
+    "l_arm": 0.878,
+    "r_arm": 0.957,
+    "l_ribs": 0.757,
+    "r_ribs": 0.746,
+    "t_spine": 0.943,
+    "l_spine": 1.275,
+    "pelvis": 1.423,
+    "l_leg": 1.404,
+    "r_leg": 1.405,
+    "subtotal": 1.158,
+    "head": 2.309,
+    "total": 1.278
+  },
+  "z_score": {
+    "l_arm": 0.878,
+    "r_arm": 0.957,
+    "l_ribs": 0.757,
+    "r_ribs": 0.746,
+    "t_spine": 0.943,
+    "l_spine": 1.275,
+    "pelvis": 1.423,
+    "l_leg": 1.404,
+    "r_leg": 1.405,
+    "subtotal": 1.158,
+    "head": 2.309,
+    "total": 1.278
+  },
+  "body_mass_index": {
+    "classification": "Normal",
+    "bmi": 22.8,
+    "limitations": "BMI has some limitations and an actual diagnosis of overweight or obesity should be made by a health professional. Obesity is associated with heart disease, certain types of cancer, type 2 diabetes, and other health risks. The higher a person's BMI is above 25, the greater their weight-related risks."
+  },
+  "estimated_visceral_adipose_tissue": {
+    "est_vat": "YN",
+    "mass_g": 313,
+    "volume_cm3": 339,
+    "area_cm2": 65.0
+  },
+  "percent_fat": {
+    "percentile_am": 16.5,
+    "percentile_yn": 19.1,
+    "l_arm": 16.5,
+    "r_arm": 19.0,
+    "trunk": 18.7,
+    "l_leg": 15.0,
+    "r_leg": 18.7,
+    "subtotal": 16.3,
+    "head": 19.0,
+    "total": 18.3
+  },
+  "fat_mass_height_squared": {
+    "kg_per_m2": 3.78,
+    "android_gynoid_ratio": 1.02,
+    "fat_percent_trunk_legs": 0.79,
+    "trunk_limb_fat_mass_ratio": 0.86
+  },
+  "appendicular_lean_mass_height_squared": {
+    "kg_per_m2_yn": 8.29,
+    "kg_per_m2_am": 8.29
+  },
+  "lean_mass": {
+    "l_arm": 3480.9,
+    "r_arm": 3582.6,
+    "trunk": 29091.2,
+    "l_leg": 10054.8,
+    "r_leg": 9933.1,
+    "subtotal": 56142.6,
+    "head": 3497.1,
+    "total": 59639.7
+  },
+  "lean_plus_bmc": {
+    "l_arm": 3703.1,
+    "r_arm": 3814.9,
+    "trunk": 29915.8,
+    "l_leg": 10640.8,
+    "r_leg": 10523.6,
+    "subtotal": 58598.2,
+    "head": 4068.8,
+    "total": 62667.0
+  },
+  "total_mass": {
+    "l_arm": 4251.3,
+    "r_arm": 4457.3,
+    "trunk": 35182.3,
+    "l_leg": 13138.6,
+    "r_leg": 12952.0,
+    "subtotal": 69981.4,
+    "head": 5026.9,
+    "total": 75008.4
+  }
+}

@@ -1,0 +1,10 @@
+<div>
+  <select #selectedType>
+    <option value="dex">Dexa Scan</option>
+    <option value="blood">Blood Work</option>
+    <option value="cgm">CGM data</option>
+    <option value="whoop">Whoop Report</option>
+  </select>
+  <input type="file" #fileInput>
+  <button (click)="onFileUpload(fileInput, selectedType.value)">Submit</button>
+</div>

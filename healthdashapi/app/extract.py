@@ -1,6 +1,8 @@
 import pdfquery
 
 def extractFileData(file_path, file_type):
+    print("file_type",file_type)    
+    print("file_path",file_path)
     if file_type == 'PDF':
         return extractPdfFileData(file_path)
     elif file_type == 'jpg' or file_type == 'png':
