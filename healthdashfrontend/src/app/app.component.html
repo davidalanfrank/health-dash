@@ -1,5 +1,4 @@
 <div class="app-container">
-  <!-- Top Nav -->
   <header class="top-nav">
     <div class="logo">Health Dashboard</div>
     <div class="profile">
@@ -9,12 +8,6 @@
   </header>
 
   <div class="main-layout">
-    <!-- Main Content -->
-    <main class="content">
-      <router-outlet></router-outlet>
-    </main>
-
-    <!-- Right Sidebar -->
     <aside [class.collapsed]="isSidebarCollapsed" class="sidebar">
       <button class="toggle-btn" (click)="toggleSidebar()">
         {{ isSidebarCollapsed ? '«' : '»' }}
@@ -22,8 +15,12 @@
       <nav class="menu">
         <a routerLink="/dash" routerLinkActive="active">Dashboard</a>
         <a routerLink="/upload" routerLinkActive="active">Upload</a>
-        <!-- Add more links as needed -->
       </nav>
     </aside>
+
+    <main class="content">
+      <router-outlet></router-outlet>
+    </main>
+
   </div>
 </div>
